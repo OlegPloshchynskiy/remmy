@@ -1,0 +1,519 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 70%;
+    padding: 15px 0 19px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #071330;
+}
+
+.menu-items {
+    cursor: pointer;
+}
+
+.btn {
+    padding: 11px 20px;
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.healthy-skin {
+    padding-top: 50px;
+}
+
+.scale {
+    transition: all 0.2s ease-in;
+}
+
+.scale:hover {
+    scale: 1.05;
+}
+
+.healthy-skin-item:first-child {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 80px;
+}
+
+.healthy-skin-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 50px;
+    color: #071330;
+}
+
+.healthy-skin-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #071330;
+}
+
+.enter-email {
+    box-shadow: 0 8px 24px 0 #0713300F;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+input[type="email"] {
+    border: none;
+    font-weight: 700;
+    outline: none;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 17px;
+}
+
+.social-biohacking {
+    padding-top: 234px;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.content-item {
+    width: 437px;
+    align-self: center;
+}
+
+.content-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3D55F9;
+}
+
+.content-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #071330;
+    margin: 20px 0 33px 0;
+}
+
+.social-biohacking-content {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #071330;
+}
+
+.new-treatment {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 420px;
+}
+
+.new-treatment-title {
+    width: 700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #071330;
+}
+
+.new-treatment-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-steps {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.steps {
+    width: 65px;
+    height: 65px;
+    background: rgba(61, 85, 249, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.steps-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #071330;
+}
+
+.steps-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(7, 19, 48, 0.6);
+}
+
+.stop-accepting {
+    width: 36%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 56px;
+    text-align: center;
+    color: #F0BCA3;
+    margin-top: 188px;
+}
+
+.robyn-kutka {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 88px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(7, 19, 48, 0.6);
+}
+
+.specilising {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #071330;
+}
+
+.content-big-title {
+    width: 30%;
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-remmy {
+    align-items: center;
+    row-gap: 129px;
+    margin-top: 166px;
+}
+
+.about-remmy>.content-item {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.about-remmy-block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.conditions {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 240px;
+}
+
+.conditions-plus-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.add-item {
+    height: 104px;
+    background: red;
+    padding: 16px 13px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-item:hover {
+    scale: 1.05;
+}
+
+.plus-block {
+    width: 56%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.add-item {
+    width: 158px;
+    height: 104px;
+}
+
+.plus-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.add-item:nth-child(1) {
+    background: rgba(127, 221, 240, 0.2);
+}
+
+.add-item:nth-child(2) {
+    background: rgba(95, 174, 236, 0.2);
+}
+
+.add-item:nth-child(3) {
+    background: rgba(155, 120, 253, 0.2);
+}
+
+.add-item:nth-child(4) {
+    background: rgba(239, 156, 208, 0.2);
+}
+
+.add-item:nth-child(5) {
+    background: rgba(246, 132, 94, 0.2);
+}
+
+.add-item:nth-child(6) {
+    background: rgba(249, 182, 94, 0.2);
+}
+
+.add-item:nth-child(7) {
+    background: rgba(255, 221, 87, 0.2);
+}
+
+.add-item:nth-child(8) {
+    background: rgba(171, 224, 80, 0.2);
+}
+
+.add-item:nth-child(9) {
+    background: rgba(123, 207, 166, 0.2);
+}
+
+.add-item:nth-child(10) {
+    width: 535px;
+    background: rgba(247, 248, 252, 1);
+}
+
+.add-item:nth-child(1)>.plus-icon {
+    background: rgba(127, 221, 240, 1)000;
+}
+
+.add-item:nth-child(2)>.plus-icon {
+    background: rgba(95, 174, 236, 1);
+}
+
+.add-item:nth-child(3)>.plus-icon {
+    background: rgba(155, 120, 253, 1);
+}
+
+.add-item:nth-child(4)>.plus-icon {
+    background: rgba(239, 156, 208, 1);
+}
+
+.add-item:nth-child(5)>.plus-icon {
+    background: rgba(246, 132, 94, 1);
+}
+
+.add-item:nth-child(6)>.plus-icon {
+    background: rgba(249, 182, 94, 1);
+}
+
+.add-item:nth-child(7)>.plus-icon {
+    background: rgba(255, 221, 87, 1);
+}
+
+.add-item:nth-child(8)>.plus-icon {
+    background: rgba(171, 224, 80, 1);
+}
+
+.add-item:nth-child(9)>.plus-icon {
+    background: rgba(123, 207, 166, 1);
+}
+
+.add-item:nth-child(10)>.plus-icon {
+    background: rgba(181, 184, 193, 1);
+}
+
+footer {
+    width: 100%;
+    height: 210px;
+    border-top: 1px solid rgba(7, 19, 48, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.footer-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(7, 19, 48, 0.5);
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(7, 19, 48, 0.5);
+}
+
+li {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+li:hover {
+    color: rgba(7, 19, 48, 0.925);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1640px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    section {
+        width: 97%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .healthy-skin-item:first-child {
+        width: 100%;
+    }
+
+    .treatments {
+        flex-direction: column-reverse;
+    }
+
+    .footer-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .content-big-title {
+        width: 90%;
+    }
+
+    .about-steps {
+        width: 100%;
+    }
+
+    .big-picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .stop-accepting {
+        width: 97%;
+    }
+
+    .new-treatment-title {
+        width: 100%;
+    }
+
+    .new-treatment-title {
+        width: 97%;
+    }
+}
